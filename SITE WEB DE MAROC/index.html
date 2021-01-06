@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WELCOME TO OUR COUNTRY(N,D)</title>
+    <link rel="stylesheet" href="style.css" />
+      <script type="text/javascript">
+		function changebg() { 
+			const image = [
+                 'url("img/imag1.jpg")',
+               'url(img/imag2.jpeg)',
+               'url(img/imag3.jpeg)',
+               'url(img/imag4.jpeg)',
+               'url(img/imag5.jpeg)',
+			];
+			const section = document.querySelector('section');
+			const bg = image[Math.floor(Math.random() * image.length)];
+			section.style.backgroundImage = bg;
+
+		}
+		setInterval(changebg,4000)
+	</script>
+  </head>
+  <body>
+      
+    <div class="container">
+      <div class="navbar">
+        <div class="menu">
+          <h3 class="logo">M<span>AROC</span></h3>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="main">
+          <header>
+                 <section id="page">
+      <div class="page_contenent">
+        <div>
+           <h1>BIENVENU  <span></span></h1>
+          <h1>au MAROC<span></span></h1>
+                <h1><span></span></h1>
+        </div>
+      </div>
+     </section>
+          </header>
+        </div>
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+    <div class="links">
+         <ul>
+          <li>
+            <a href="index.html" style="--i: 0.05s;">Home</a>
+          </li>
+          <li>
+            <a href="A%20propos%20de%20Maroc.html" style="--i: 0.1s;">A propos de Maroc</a>
+          </li>
+          <li>
+            <a href="tradition.html" style="--i: 0.15s;">tradition Marocaine</a>
+          </li>
+          <li>
+            <a href="la%20richasse%20du%20Maroc.html" style="--i: 0.2s;">la richasse du Maroc</a>
+          </li>
+          <li>
+            <a href="activites.html" style="--i: 0.25s;">Activite</a>
+          </li>
+          <li><a href="youropinion.html" style="--i: 0.3s;">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
